@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+meta{
+    display: none;
+}    
 .main{
     width: 100%;
     height: 100vh;
