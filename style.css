@@ -6,19 +6,19 @@
     block-size: 100vh;
     padding: 5px;
     padding-left: 8px; 
+    padding-right: 13px;
     background-color:rgb(35, 50, 40);
 }
 .logo{
     float: left;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 .frm{
-    float: left;
-    margin-right: 170px;
-    margin-bottom: 8px;
-    display: flex;
+    float: right;
+    margin-right: 20px;
     width: 380px;
     height: 30px;
+    display: flex;
     border-radius: 5px;
     background-color: rgb(50, 180, 230);
     padding: 5px; 
@@ -68,9 +68,15 @@
     color:rgb(230, 0, 0);
     font-weight: bold;
 }
-.menu{
-    float: left;
+.navbar{
+    margin-bottom: 5px;
+    width:100% ;
     padding: 5px;
+    display: flex;
+}
+.menu{
+    margin-right: 80px;
+    float: left;
 }
 ul{
     float: left;
@@ -95,25 +101,20 @@ ul li a{
 ul li a:hover{
     color: #ff7200;
 }
-.navbar{
-    margin-bottom: 5px;
-    display: flex;
-    width:100% ;
-    padding: 5px;
-}
 .btn02{
+    float: right;
     width: 80px;
     height: 30px;
     border-radius: 5px;
-    background: rgb(230,230,230);   
+    background: rgb(180, 150, 10);   
 }
 .btn02 a{
     text-decoration: none;
     font-weight: bold;
-    color:rgb(0, 30, 230);
+    color:rgb(0, 0, 0);
 }
 table{
-    width:99.8% ;
+    width:100% ;
     background-color: aqua;
     border-collapse: collapse;
   }
