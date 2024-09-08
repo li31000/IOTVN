@@ -2,76 +2,41 @@
     margin: 0;
     padding: 0;
 }
-meta {
-    display: none;
-}
 .main{
     block-size: 100vh;
-    background-color:rgb(35, 50, 40);  
+    padding: 5px;
+    padding-left: 8px; 
+    background-color:rgb(35, 50, 40);
 }
-.navbar{
-    block-size: auto;
-    padding-top: 5px;
-    padding-left: 8px;
-}
-.icon{
-    block-size: auto;
+.logo{
     float: left;
+    margin-right: 50px;
 }
-.menu{
-    width: 500px;
-    height: 40px;
-    padding-top: 5px;
-    float: left;
-}
-ul{
-    display: flex;
-    float: left;
-    justify-content: center;
-    align-items: center;
-}
-
-ul li{
-    list-style: none;
-    margin-left: 30px;
-    margin-top: 5px;
-    font-size: 15px;
-}
-
-ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.3s ease-in-out;
-}
-
-ul li a:hover{
-    color: #ff7200;
-}
-
 .frm{
-    margin-left: 30px;
+    float: left;
+    margin-right: 170px;
+    margin-bottom: 8px;
+    display: flex;
     width: 380px;
     height: 30px;
     border-radius: 5px;
     background-color: rgb(50, 180, 230);
     padding: 5px; 
-    float: left;
 }
 .frm02{
+    float: left;
     width: 130px;
     height: 20px; 
     border: none;
     border-radius: 3px;
     background-color:rgb(250, 250, 250);
     padding: 5px;
-    float: left;
     font-family: 'Times New Roman';
     font-size: 15px;
     color:  rgb(0, 0, 0);
 }
 .frm03{
+    float: left;
     margin-left: 5px;
     width: 110px;
     height: 20px; 
@@ -79,11 +44,10 @@ ul li a:hover{
     border-radius: 3px;
     background-color:rgb(250, 250, 250);
     padding: 5px;
-    float: left;
     font-family: 'Times New Roman';
     font-size: 15px;
     color: rgb(0, 0, 0);
-}   
+}
 .btn{
     margin-left: 5px;
     width: 110px;
@@ -103,11 +67,44 @@ ul li a:hover{
     text-decoration: none;
     color:rgb(230, 0, 0);
     font-weight: bold;
+} 
+.menu{
+    float: left;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 17px;
 }
 
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
 
-table {
-    margin-top: 30px;
+ul li a:hover{
+    color: #ff7200;
+}
+.navbar{
+    display: flex;
+    width:100% ;
+    padding: 5px;
+}
+table{
+    width:98% ;
     background-color: aqua;
     border-collapse: collapse;
   }
