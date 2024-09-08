@@ -11,11 +11,10 @@
 }
 .logo{
     float: left;
-    margin-right: 30px;
+    margin-right: 130px;
 }
 .frm{
-    float: right;
-    margin-right: 20px;
+    float: left;
     width: 380px;
     height: 30px;
     display: flex;
@@ -76,7 +75,6 @@
 }
 .menu{
     margin-right: 80px;
-    float: left;
 }
 ul{
     float: left;
@@ -102,7 +100,6 @@ ul li a:hover{
     color: #ff7200;
 }
 .btn02{
-    float: right;
     width: 80px;
     height: 30px;
     border-radius: 5px;
