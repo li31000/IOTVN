@@ -13,60 +13,6 @@
     float: left;
     margin-right: 130px;
 }
-.frm{
-    float: left;
-    width: 380px;
-    height: 30px;
-    display: flex;
-    border-radius: 5px;
-    background-color: rgb(50, 180, 230);
-    padding: 5px; 
-}
-.frm02{
-    float: left;
-    width: 130px;
-    height: 20px; 
-    border: none;
-    border-radius: 3px;
-    background-color:rgb(250, 250, 250);
-    padding: 5px;
-    font-family: 'Times New Roman';
-    font-size: 15px;
-    color:  rgb(0, 0, 0);
-}
-.frm03{
-    float: left;
-    margin-left: 5px;
-    width: 110px;
-    height: 20px; 
-    border: none;
-    border-radius: 3px;
-    background-color:rgb(250, 250, 250);
-    padding: 5px;
-    font-family: 'Times New Roman';
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-}
-.btn{
-    margin-left: 5px;
-    width: 110px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    background: rgb(0, 0, 0);
-    font-size: 15px;
-    font-weight: bold;
-    transition: 0.2s ease;
-    cursor:pointer;
-}
-.btn:hover{
-    background: rgb(230,230,230);
-}
-.btn a{
-    text-decoration: none;
-    color:rgb(230, 0, 0);
-    font-weight: bold;
-}
 .navbar{
     margin-bottom: 5px;
     width:100% ;
